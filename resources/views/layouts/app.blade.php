@@ -54,6 +54,7 @@
             @yield('content')
 
             <footer>
+                <div class="footer_nomar">CLUB NOMAR KITASHINCHI</div>
                 <div class="footer_menu">
                     <a href="" class="footer_a">GOLJOサーチ</a>
                     <a href="" class="footer_a">GOLJOサーチ</a>

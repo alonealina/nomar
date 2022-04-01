@@ -153,6 +153,12 @@ select {
     margin-bottom: 60px;
 }
 
+.footer_nomar {
+    font: normal normal normal 20px/50px Futura PT;
+    color: #DBA57C;
+    text-align: center;
+}
+
 .content_div {
     height:200px;
 }
