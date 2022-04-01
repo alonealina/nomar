@@ -1,0 +1,158 @@
+/* iPad・スマホへの振り分け */
+
+/* 表示領域が1020px以上の場合に適用するスタイル（パソコン向け） */
+@media screen and (min-width: 1020px) {
+}	
+
+/* 表示領域が1019px以下の場合に適用するスタイル（スマホ向け） */
+@media screen and (max-width: 1019px) and (min-width: 551px) {
+}
+
+body {
+    font: normal normal normal 17px/17px Open Sans;
+    color:#262626;
+}
+
+header, footer {
+    font: normal normal 300 13px/18px Open Sans;
+    background: transparent linear-gradient(180deg, #262626 0%, #414141 100%) 0% 0% no-repeat padding-box;
+    color:#fff;
+}
+
+header {
+    width:100%;
+    position: fixed;
+    z-index: 9000;
+    height: 117px;
+    padding:20px;
+}
+
+a {
+    color:#262626;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#505050;
+    text-decoration: none;
+    opacity:0.7;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+.header_a, .footer_a, .footer_a_sp {
+    color:#fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.header_a {
+    border-left: 1px solid;
+    text-align: center;
+    font: normal normal normal 13px/18px Futura PT;
+}
+
+.header_en {
+    font: normal normal normal 18px/18px Futura PT;
+}
+
+.header_margin {
+    margin-top:139px;
+}
+
+.header_padding_sp {
+    padding-top:83px;
+}
+
+.header_margin_sp {
+    margin-top: 83px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom:10px;
+}
+
+#registration_pc {
+    overflow-x: hidden;
+}
+
+#registration_sp {
+    overflow-x: hidden;
+    font: normal normal normal 12px/16px Open Sans;
+    color: #262626;
+}
+
+.body_sp {
+    min-width:375px;
+    text-align:-webkit-center;
+}
+
+li {
+    list-style: none;
+}
+
+select {
+    background: #626262 0% 0% no-repeat padding-box;
+    color:#fff;
+    font: normal normal 600 20px/30px Open Sans;
+    height:50px;
+    padding-left: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../img/select_bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+
+.none {
+    opacity: 0;
+    z-index:-1;
+}
+
+.logo_a {
+    width:200px;
+    height:100%;
+    display: block;
+}
+
+.logo_a_sp {
+    width:120px;
+    height:100%;
+    display: block;
+    background-color: #fff;
+}
+
+.logo_img_sp {
+    width:100px;
+    display: block;
+    margin: auto;
+}
+
+.header_logo {
+    margin: auto;
+    display: block;
+}
+
+ 
+.footer_menu {
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 60px;
+}
+
+.content_div {
+    height:200px;
+}
