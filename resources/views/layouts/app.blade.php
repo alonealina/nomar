@@ -24,23 +24,23 @@
                     <a class="logo_a" href="/">
                         <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                     </a>
-                    <a href="" class="header_a">
+                    <a href="{{ route('about') }}" class="header_a">
                         <p class="header_en">About</p>
                         <p class="header_ja">CLUB NOMARとは</p>
                     </a>
-                    <a href="" class="header_a">
+                    <a href="{{ route('floor') }}" class="header_a">
                         <p class="header_en">Floor/Price</p>
                         <p class="header_ja">フロア/料金案内</p>
                     </a>
-                    <a href="" class="header_a">
+                    <a href="{{ route('cast_list') }}" class="header_a">
                         <p class="header_en">Cast List</p>
                         <p class="header_ja">キャスト一覧</p>
                     </a>
-                    <a href="" class="header_a">
+                    <a href="{{ route('news_list') }}" class="header_a">
                         <p class="header_en">News</p>
                         <p class="header_ja">お知らせ</p>
                     </a>
-                    <a href="" class="header_a">
+                    <a href="{{ route('access') }}" class="header_a">
                         <p class="header_en">Access</p>
                         <p class="header_ja">アクセス</p>
                     </a>
@@ -56,12 +56,32 @@
             <footer>
                 <div class="footer_nomar">CLUB NOMAR KITASHINCHI</div>
                 <div class="footer_menu">
-                    <a href="" class="footer_a">GOLJOサーチ</a>
-                    <a href="" class="footer_a">GOLJOサーチ</a>
-                    <a href="" class="footer_a">GOLJOサーチ</a>
-                    <a href="" class="footer_a">GOLJOサーチ</a>
-                    <a href="" class="footer_a">GOLJOサーチ</a>
-                    <a href="" class="footer_a">GOLJOサーチ</a>
+                    <a href="{{ route('about') }}" class="footer_a">
+                        <p class="header_en">About</p>
+                        <p class="header_ja">CLUB NOMARとは</p>
+                    </a>
+                    <a href="{{ route('floor') }}" class="footer_a">
+                        <p class="header_en">Floor/Price</p>
+                        <p class="header_ja">フロア/料金案内</p>
+                    </a>
+                    <a href="{{ route('cast_list') }}" class="footer_a">
+                        <p class="header_en">Cast List</p>
+                        <p class="header_ja">キャスト一覧</p>
+                    </a>
+                </div>
+                <div class="footer_menu">
+                    <a href="{{ route('news_list') }}" class="footer_a">
+                        <p class="header_en">News</p>
+                        <p class="header_ja">お知らせ</p>
+                    </a>
+                    <a href="{{ route('access') }}" class="footer_a">
+                        <p class="header_en">Access</p>
+                        <p class="header_ja">アクセス</p>
+                    </a>
+                    <a href="" class="footer_a">
+                        <p class="header_en">Recruit</p>
+                        <p class="header_ja">求人情報</p>
+                    </a>
                 </div>
             </footer>
         </body>

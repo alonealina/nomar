@@ -13,6 +13,31 @@ class NomarController extends Controller
         return view('index');
     }
 
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function floor()
+    {
+        return view('floor');
+    }
+
+    public function cast_list()
+    {
+        return view('cast_list');
+    }
+
+    public function news_list()
+    {
+        return view('news_list');
+    }
+
+    public function access()
+    {
+        return view('access');
+    }
+
     public function search(Request $request)
     {
         $filter_array = $request->all();

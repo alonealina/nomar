@@ -32,10 +32,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color:#505050;
+
+
+.footer_menu a:hover, .header_menu a:hover {
+    color:#fff;
     text-decoration: none;
-    opacity:0.7;
+    opacity:0.5;
 }
 
 p {
@@ -67,7 +69,7 @@ p {
 }
 
 .header_margin {
-    margin-top:139px;
+    margin-top:115px;
 }
 
 .header_padding_sp {
@@ -151,6 +153,11 @@ select {
     text-align: center;
     margin-top:40px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    margin: auto;
 }
 
 .footer_nomar {
@@ -159,6 +166,62 @@ select {
     text-align: center;
 }
 
+.footer_a {
+    width:200px;
+}
+
 .content_div {
     height:200px;
+}
+
+.content_div_bg {
+    background-image: url(../img/bg.png);
+}
+
+.title_div {
+    padding:50px;
+    text-align: center;
+}
+
+.title_en {
+    font: normal normal normal 35px/20px Futura PT;
+    letter-spacing: 0.35px;
+    color: #DBA57C;
+    margin-bottom: 10px;
+}
+
+.title_ja {
+    font: normal normal normal 12px/20px Kozuka Mincho Pr6N;
+    color: #FFFFFF;
+}
+
+.cast_list_ex {
+    margin-top:20px;
+    margin-bottom: 50px;
+    font: normal normal normal 16px/20px Kozuka Mincho Pr6N;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+}
+
+.cast_list_div {
+    width:1020px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.cast_list_item {
+    width:150px;
+    margin:10px;
+}
+
+.cast_list_img {
+    width:100%;
+    height:230px;
+}
+
+.cast_list_name {
+    font: normal normal normal 15px/20px Kozuka Mincho Pr6N;
+    color: #FFFFFF;
+    margin-top: 5px;
 }
