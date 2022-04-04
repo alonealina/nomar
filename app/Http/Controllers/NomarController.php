@@ -28,6 +28,11 @@ class NomarController extends Controller
         return view('cast_list');
     }
 
+    public function cast_profile()
+    {
+        return view('cast_profile');
+    }
+
     public function news_list()
     {
         return view('news_list');

@@ -6,25 +6,20 @@
         <div class="title_en">News</div>
         <div class="title_ja">CLAB NOMARからのお知らせ</div>
     </div>
+    <div class="news_div">
+        <span class="news_genre">オフィシャル</span> <span class="news_date">(2021年12月2日配信)</span>
+        <div class="news_title">ホームページ先行オープン</div>
+        <img src="{{ asset('img/news.png') }}" class="news_img" alt="">
+        <div class="news_text_short">ホームページ先行オープン</div>
+    </div>
+    <div class="news_div">
+        <span class="news_genre">オフィシャル</span> <span class="news_date">(2021年12月2日配信)</span>
+        <div class="news_title">ホームページ先行オープン</div>
+        <img src="{{ asset('img/news.png') }}" class="news_img" alt="">
+        <div class="news_text_short">ホームページ先行オープン</div>
+    </div>
 </div>
 
-<div class="content_div">
-
-</div>
-
-<div class="content_div_bg">
-</div>
-
-
-
-
-<div class="content_div">
-
-</div>
-
-<div class="content_div_bg">
-
-</div>
 
 @endsection
 
