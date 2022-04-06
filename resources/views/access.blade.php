@@ -19,6 +19,10 @@
             </div>
         </div>
     </div>
+    <table class="access_table">
+        <tr><th>営業時間</th><th>定休日</th></tr>
+        <tr><td>月～土 PM7:00～LAST</td><td>日曜・祝日</td></tr>
+    </table>
 </div>
 
 

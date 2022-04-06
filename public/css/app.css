@@ -340,3 +340,20 @@ select {
     width:200px;
     display: inline-block;
 }
+
+.access_table {
+    margin:auto;
+    border: 1px solid #DBA57C;
+    text-align: center;
+    font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
+}
+
+.access_table th, .access_table td {
+    border: 1px solid #DBA57C;
+    padding:30px;
+    width:250px;
+}
+
+.access_table th {
+    background: #DBA57C 0% 0% no-repeat padding-box;
+}
