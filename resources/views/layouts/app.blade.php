@@ -36,7 +36,7 @@
                         <p class="header_en">Cast List</p>
                         <p class="header_ja">キャスト一覧</p>
                     </a>
-                    <a href="{{ route('news_list') }}" class="header_a" style="width: 100px;">
+                    <a href="{{ route('news_list') }}" class="header_a" style="width: 105px;">
                         <p class="header_en">News</p>
                         <p class="header_ja">お知らせ</p>
                     </a>
