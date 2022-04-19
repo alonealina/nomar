@@ -183,6 +183,45 @@ select {
     color:#fff;
 }
 
+.top_content {
+    /* background-image: url(../img/bg.png); */
+    color:gray;
+    height:660px;
+}
+
+.top_about_explain {
+    text-align: center;
+    font: normal normal normal 15px/20px Kozuka Mincho Pr6N;
+    letter-spacing: 1.8px;
+}
+
+.top_news_div {
+    width:1020px;
+    margin: auto;
+}
+
+.news_list_btn {
+    margin: auto;
+    display: block;
+}
+
+.top_secure {
+    font: normal normal normal 25px/20px Kozuka Mincho Pr6N;
+    text-align: center;
+    margin: 20px;
+}
+
+.top_secure_orange {
+    font: normal normal normal 28px/50px Kozuka Mincho Pr6N;
+    color: #DBA57C;
+    text-align: center;
+}
+
+.detail_btn {
+    margin: auto;
+    display: block;
+}
+
 .padding_50 {
     padding:50px;
 }
