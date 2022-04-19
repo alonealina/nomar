@@ -24,19 +24,19 @@
                     <a class="logo_a" href="/">
                         <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                     </a>
-                    <a href="{{ route('about') }}" class="header_a">
+                    <a href="{{ route('about') }}" class="header_a" style="width: 145px;">
                         <p class="header_en">About</p>
                         <p class="header_ja">CLUB NOMARとは</p>
                     </a>
-                    <a href="{{ route('floor') }}" class="header_a">
+                    <a href="{{ route('floor') }}" class="header_a" style="width: 145px;">
                         <p class="header_en">Floor/Price</p>
                         <p class="header_ja">フロア/料金案内</p>
                     </a>
-                    <a href="{{ route('cast_list') }}" class="header_a">
+                    <a href="{{ route('cast_list') }}" class="header_a" style="width: 125px;">
                         <p class="header_en">Cast List</p>
                         <p class="header_ja">キャスト一覧</p>
                     </a>
-                    <a href="{{ route('news_list') }}" class="header_a">
+                    <a href="{{ route('news_list') }}" class="header_a" style="width: 100px;">
                         <p class="header_en">News</p>
                         <p class="header_ja">お知らせ</p>
                     </a>
