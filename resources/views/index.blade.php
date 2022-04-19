@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="top_content header_margin">
+    <img src="{{ asset('img/top_first_view.jpg') }}" class="">
 </div>
 
 <div class="content_div_bg">

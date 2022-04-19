@@ -149,6 +149,8 @@ select {
 .header_logo {
     margin: auto;
     display: block;
+    width:137px;
+    height:49px;
 }
 
  
@@ -178,15 +180,23 @@ select {
     color:#000;
 }
 
+.content_div_black {
+    background-color: #000;
+}
+
 .content_div_bg {
     background-image: url(../img/bg.png);
     color:#fff;
 }
 
 .top_content {
-    /* background-image: url(../img/bg.png); */
-    color:gray;
+    background-image: url(../img/top_first_view.jpg);
     height:660px;
+}
+
+.about_img {
+    margin:auto;
+    display: block;
 }
 
 .top_about_explain {
