@@ -19,7 +19,7 @@
     @if(!$isMobile)
     <div id="registration_pc">
         <body>
-            <header>
+            <header class="header_pc">
                 <div class="header_menu">
                     <a class="logo_a" href="/">
                         <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
@@ -93,7 +93,7 @@
     $now_route = \Route::currentRouteName();
     @endphp
         <body>
-            <header>
+            <header class="header_sp">
                 <a class="logo_a_sp" href="/">
                     <img src="{{ asset('img/logo.png') }}" class="logo_img_sp" alt="">
                 </a>
@@ -103,51 +103,56 @@
                     <div class="menu-content">
                         <ul>
                             <li>
-                                <a href ="{{ route('search') }}" class="menu_head_sp @if (strpos($now_route,'search') !== false) current @endif">GOLJOサーチ</a>
+                                <a href ="{{ route('about') }}" class="menu_content_sp @if (strpos($now_route,'search') !== false) current @endif">
+                                    <span class="sp_menu_en">About</span><br>
+                                    <span class="sp_menu_ja">CLUB NOMARとは</span>
+                                </a>
                             </li>
                             <li>
-                                <a href ="/#pickup" class="menu_content_sp @if (strpos($now_route,'pickup') !== false) current @endif">Pickup GOLJO</a>
+                                <a href ="{{ route('floor') }}" class="menu_content_sp @if (strpos($now_route,'event') !== false) current @endif">
+                                    <span class="sp_menu_en">Floor/Price</span><br>
+                                    <span class="sp_menu_ja">フロア/料金案内</span>
+                                </a>
                             </li>
                             <li>
-                                <a href ="{{ route('event') }}" class="menu_content_sp @if (strpos($now_route,'event') !== false) current @endif">イベント</a>
+                                <a href ="{{ route('cast_list') }}" class="menu_content_sp @if (strpos($now_route,'course') !== false) current @endif">
+                                    <span class="sp_menu_en">Cast List</span><br>
+                                    <span class="sp_menu_ja">キャスト一覧</span>
+                                </a>
                             </li>
                             <li>
-                                <a href ="{{ route('course') }}" class="menu_content_sp @if (strpos($now_route,'course') !== false) current @endif">オススメGOLF場</a>
+                                <a href ="{{ route('news_list') }}" class="menu_content_sp @if (strpos($now_route,'practice') !== false) current @endif">
+                                    <span class="sp_menu_en">News</span><br>
+                                    <span class="sp_menu_ja">お知らせ</span>
+                                </a>
                             </li>
                             <li>
-                                <a href ="{{ route('practice') }}" class="menu_content_sp @if (strpos($now_route,'practice') !== false) current @endif">練習場</a>
+                                <a href ="{{ route('access') }}" class="menu_content_sp @if (strpos($now_route,'news') !== false) current @endif">
+                                    <span class="sp_menu_en">Access</span><br>
+                                    <span class="sp_menu_ja">アクセス</span>
+                                </a>
                             </li>
                             <li>
-                                <a href ="{{ route('news') }}" class="menu_content_sp @if (strpos($now_route,'news') !== false) current @endif">ニュース</a>
-                            </li>
-                            <li>
-                                <a href ="{{ route('ranking') }}" class="menu_content_sp @if (strpos($now_route,'ranking') !== false) current @endif">GOLJO 人気ランキング</a>
-                            </li>
-                            <li>
-                                <a href ="{{ route('catalog') }}" class="menu_content_sp @if (strpos($now_route,'catalog') !== false) current @endif">Fashionカタログ</a>
+                                <a href ="" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
+                                    <span class="sp_menu_en">Recruit</span><br>
+                                    <span class="sp_menu_ja">求人</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </header>
-            <div class="insta_column_sp">
-                <p class="insta_scroll">
-                    インスタグラム随時更新中！アクセスはこちらから！　インスタグラム随時更新中！アクセスはこちらから！　インスタグラム随時更新中！アクセスはこちらから！　
-                </p>
-            </div>
             @yield('content_sp')
 
             <footer class="footer_sp">
                 <a href="/"><img src="{{ asset('img/logo2.png') }}" class="footer_logo" alt=""></a>
                 <div class="footer_content_sp">
-                    <a href="{{ route('search') }}" class="footer_a_sp">GOLJOサーチ</a>
-                    <a href="/#pickup" class="footer_a_sp">Pickup GOLJO</a>
-                    <a href="{{ route('event') }}" class="footer_a_sp">イベント</a>
-                    <a href="{{ route('course') }}" class="footer_a_sp">オススメGOLF場</a>
-                    <a href="{{ route('practice') }}" class="footer_a_sp">練習場</a>
-                    <a href="{{ route('news') }}" class="footer_a_sp">ニュース</a>
-                    <a href="{{ route('ranking') }}" class="footer_a_sp">GOLJO 人気ランキング</a>
-                    <a href="{{ route('catalog') }}" class="footer_a_sp">Fashionカタログ</a>
+                    <a href="{{ route('about') }}" class="footer_a_sp">GOLJOサーチ</a>
+                    <a href="{{ route('floor') }}" class="footer_a_sp">イベント</a>
+                    <a href="{{ route('cast_list') }}" class="footer_a_sp">オススメGOLF場</a>
+                    <a href="{{ route('news_list') }}" class="footer_a_sp">練習場</a>
+                    <a href="{{ route('access') }}" class="footer_a_sp">ニュース</a>
+                    <a href="" class="footer_a_sp">GOLJO 人気ランキング</a>
 
                 </div>
                 <div class="copyright">2022 ©︎ GOLJO All right.</div>
