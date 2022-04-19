@@ -23,6 +23,9 @@
         <tr><th>営業時間</th><th>定休日</th></tr>
         <tr><td>月～土 PM7:00～LAST</td><td>日曜・祝日</td></tr>
     </table>
+    <div class="padding_50">
+        <div style="width:315px; height:260px; background-color:gray; margin: auto;"></div>
+    </div>
 </div>
 
 

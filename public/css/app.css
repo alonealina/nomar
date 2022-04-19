@@ -189,6 +189,10 @@ select {
     color:#fff;
 }
 
+.content_div_floor {
+    background-color: #A89F85;
+}
+
 .top_content {
     background-image: url(../img/top_first_view.jpg);
     height:660px;
@@ -248,10 +252,72 @@ select {
     margin-bottom: 10px;
 }
 
+.title_floor {
+    font: normal normal normal 35px/20px Futura PT;
+    letter-spacing: 0.35px;
+    color: #DBA57C;
+    height: 50px;
+    padding: 15px;
+    text-align:center;
+}
+
 .title_ja, .title_ja_black {
     font: normal normal normal 12px/20px Kozuka Mincho Pr6N;
 }
 
+.floor_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:950px;
+    margin: 5px auto;
+}
+
+.floor_img {
+    width:600px;
+}
+
+.floor_text {
+    margin-left:80px;
+    width:270px;
+}
+
+.floor_text_main {
+    font: normal normal normal 18px/20px Futura PT;
+}
+
+.floor_text_sub {
+    font: normal normal normal 13px/20px Futura PT;
+    margin-top: 20px;
+}
+
+.price_ex1 {
+    margin-top: 40px;
+    text-align: center;
+    font: normal normal normal 18px/23px Kozuka Mincho Pr6N;
+    letter-spacing: 0.36px;
+}
+
+.price_ex2 {
+    font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
+    width:420px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.price_ex3 {
+    text-align: center;
+    font: normal normal normal 13px/23px Kozuka Mincho Pr6N;
+    margin-top: 30px;
+}
+
+.price_ex4 {
+    font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
+    width:400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
 
 .cast_list_ex {
     margin-top:20px;
@@ -390,9 +456,9 @@ select {
     display: inline-block;
 }
 
-.access_table {
+.access_table, .price_table {
     margin:auto;
-    border: 1px solid #DBA57C;
+    border: 2px solid #DBA57C;
     text-align: center;
     font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
 }
@@ -403,6 +469,17 @@ select {
     width:250px;
 }
 
-.access_table th {
+.price_table th, .price_table td {
+    border: 2px solid #DBA57C;
+    padding:15px;
+    width:220px;
+}
+
+.access_table th, .price_table th {
     background: #DBA57C 0% 0% no-repeat padding-box;
+}
+
+.price_table td {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color:#000;
 }
