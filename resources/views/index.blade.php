@@ -123,6 +123,114 @@
 
 @section('content_sp')
 
+<div class="content_div_bg_sp header_margin_sp">
+</div>
+
+<div class="content_div_bg" style="padding:20px 0;">
+    <div class="title_div">
+        <div class="title_en">About</div>
+        <div class="title_ja">
+            CLUB NOMARとは<br><br>
+            本物のラグジュアリーと<br>
+            落ち着いた時間を追求した<br>
+            大人の為の空間です。<br><br>
+            美意識が高く、ご来店いただく紳士様達に<br>
+            より一層楽しんで頂くために努力を惜しまない<br>
+            一流の女性キャストが揃っております。<br><br>
+            私どもはお客さまの満足を追求し一流の<br>
+            おもてなしで、一流の皆様をお待ちしています。
+        </div>
+    </div>
+    <div style="width:315px; height:260px; background-color:gray; margin: auto;"></div>
+</div>
+
+<div class="content_div">
+    <div class="title_div">
+        <div class="title_en">Cast List</div>
+        <div class="title_ja">
+            キャスト一覧<br><br><br>
+            CLUB NOMARキャストのご紹介です。<br>
+            ごく一部のご紹介になります。<br>
+            ここではご紹介されていない一流の美女キャストが<br>
+            皆様のご来店をお待ちしています。
+        </div>
+    </div>
+
+    <div class="cast_list_div_sp">
+        <div class="cast_list_item_sp">
+            <a href="{{ route('cast_profile') }}">
+                <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+                <div class="cast_list_name_sp">AMANE<br>あまね</div>
+            </a>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+        <div class="cast_list_item_sp">
+            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
+            <div class="cast_list_name_sp">AMANE<br>あまね</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="content_div_bg" style="padding:20px 0;">
+    <div class="title_div">
+        <div class="title_en">News</div>
+        <div class="title_ja">お知らせ</div>
+    </div>
+    <div class="top_news_div_sp">
+        <span class="news_genre">オフィシャル</span> <span class="news_date">(2021年12月2日配信)</span>
+        <div class="news_title">ホームページ先行オープン</div>
+    </div>
+    <div class="top_news_div_sp">
+        <span class="news_genre">オフィシャル</span> <span class="news_date">(2021年12月2日配信)</span>
+        <div class="news_title">ホームページ先行オープン</div>
+    </div>
+    <a href="{{ route('news_list') }}">
+        <img src="{{ asset('img/news_list_btn.png') }}" class="news_list_btn">
+    </a>
+
+    <div class="top_secure_sp" style="padding-top:50px;">【CLUB NOMAR安全対策】</div>
+
+    <img src="{{ asset('img/top_border1_sp.png') }}" class="top_border_sp">
+    <div class="top_secure_orange_sp">
+        スタッフは新型コロナウイルスの<br>
+        ワクチンを接種しています。<br>
+        店内は常に換気を徹底しており、<br>
+        安心してお過ごしいただけます。
+    </div>
+    <img src="{{ asset('img/top_border2_sp.png') }}" class="top_border_sp">
+    <img src="{{ asset('img/detail_btn_sp.png') }}" class="detail_btn_sp">
+
+
+
+</div>
 
 
 @endsection

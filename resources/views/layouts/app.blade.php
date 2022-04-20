@@ -106,36 +106,42 @@
                                 <a href ="{{ route('about') }}" class="menu_content_sp @if (strpos($now_route,'search') !== false) current @endif">
                                     <span class="sp_menu_en">About</span><br>
                                     <span class="sp_menu_ja">CLUB NOMARとは</span>
+                                    <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href ="{{ route('floor') }}" class="menu_content_sp @if (strpos($now_route,'event') !== false) current @endif">
                                     <span class="sp_menu_en">Floor/Price</span><br>
                                     <span class="sp_menu_ja">フロア/料金案内</span>
+                                    <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href ="{{ route('cast_list') }}" class="menu_content_sp @if (strpos($now_route,'course') !== false) current @endif">
                                     <span class="sp_menu_en">Cast List</span><br>
                                     <span class="sp_menu_ja">キャスト一覧</span>
+                                    <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href ="{{ route('news_list') }}" class="menu_content_sp @if (strpos($now_route,'practice') !== false) current @endif">
                                     <span class="sp_menu_en">News</span><br>
                                     <span class="sp_menu_ja">お知らせ</span>
+                                    <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href ="{{ route('access') }}" class="menu_content_sp @if (strpos($now_route,'news') !== false) current @endif">
                                     <span class="sp_menu_en">Access</span><br>
                                     <span class="sp_menu_ja">アクセス</span>
+                                    <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href ="" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
                                     <span class="sp_menu_en">Recruit</span><br>
                                     <span class="sp_menu_ja">求人</span>
+                                    <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -145,17 +151,53 @@
             @yield('content_sp')
 
             <footer class="footer_sp">
-                <a href="/"><img src="{{ asset('img/logo2.png') }}" class="footer_logo" alt=""></a>
-                <div class="footer_content_sp">
-                    <a href="{{ route('about') }}" class="footer_a_sp">GOLJOサーチ</a>
-                    <a href="{{ route('floor') }}" class="footer_a_sp">イベント</a>
-                    <a href="{{ route('cast_list') }}" class="footer_a_sp">オススメGOLF場</a>
-                    <a href="{{ route('news_list') }}" class="footer_a_sp">練習場</a>
-                    <a href="{{ route('access') }}" class="footer_a_sp">ニュース</a>
-                    <a href="" class="footer_a_sp">GOLJO 人気ランキング</a>
-
+                <a href="/"><img src="{{ asset('img/logo.png') }}" class="footer_logo_sp" alt=""></a>
+                <div class="footer_menu_sp">
+                    <ul>
+                        <li>
+                            <a href ="{{ route('about') }}" class="menu_content_sp @if (strpos($now_route,'search') !== false) current @endif">
+                                <span class="sp_menu_en">About</span><br>
+                                <span class="sp_menu_ja">CLUB NOMARとは</span>
+                                <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('floor') }}" class="menu_content_sp @if (strpos($now_route,'event') !== false) current @endif">
+                                <span class="sp_menu_en">Floor/Price</span><br>
+                                <span class="sp_menu_ja">フロア/料金案内</span>
+                                <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('cast_list') }}" class="menu_content_sp @if (strpos($now_route,'course') !== false) current @endif">
+                                <span class="sp_menu_en">Cast List</span><br>
+                                <span class="sp_menu_ja">キャスト一覧</span>
+                                <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('news_list') }}" class="menu_content_sp @if (strpos($now_route,'practice') !== false) current @endif">
+                                <span class="sp_menu_en">News</span><br>
+                                <span class="sp_menu_ja">お知らせ</span>
+                                <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('access') }}" class="menu_content_sp @if (strpos($now_route,'news') !== false) current @endif">
+                                <span class="sp_menu_en">Access</span><br>
+                                <span class="sp_menu_ja">アクセス</span>
+                                <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
+                                <span class="sp_menu_en">Recruit</span><br>
+                                <span class="sp_menu_ja">求人</span>
+                                <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="copyright">2022 ©︎ GOLJO All right.</div>
             </footer>
         </body>
     </div>

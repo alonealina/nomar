@@ -88,7 +88,7 @@ p {
 }
 
 .header_margin_sp {
-    margin-top: 83px;
+    margin-top: 48px;
 }
 
 footer {
@@ -123,7 +123,7 @@ select {
     padding-left: 20px;
     -webkit-appearance: none;
     appearance: none;
-    background-image: url(../img/select_bg.png);
+    background-image: url(../img/select_bg.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50px;
@@ -159,7 +159,12 @@ select {
     height:49px;
 }
 
- 
+.footer_logo_sp {
+    width:180px;
+    margin: auto;
+    display: block;
+}
+
 .footer_menu {
     text-align: center;
     margin-top:40px;
@@ -191,12 +196,19 @@ select {
 }
 
 .content_div_bg {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.jpg);
     color:#fff;
 }
 
 .content_div_floor {
     background-color: #A89F85;
+}
+
+.content_div_bg_sp {
+    height: 565px;
+    background-image: url(../img/bg_sp.jpg);
+    background-size: 100%;
+    color:#000;
 }
 
 .top_content {
@@ -220,6 +232,11 @@ select {
     margin: auto;
 }
 
+.top_news_div_sp {
+    width:320px;
+    margin: auto;
+}
+
 .news_list_btn {
     margin: auto;
     display: block;
@@ -231,10 +248,28 @@ select {
     margin: 20px;
 }
 
+.top_secure_sp {
+    font: normal normal normal 18px/14px Kozuka Mincho Pr6N;
+    text-align: center;
+    margin: 20px;
+}
+
 .top_secure_orange {
     font: normal normal normal 28px/50px Kozuka Mincho Pr6N;
     color: #DBA57C;
     text-align: center;
+}
+
+.top_secure_orange_sp {
+    font: normal normal normal 20px/36px Kozuka Mincho Pr6N;
+    color: #DBA57C;
+    text-align: center;
+}
+
+.top_border_sp {
+    margin: auto;
+    display: block;
+    width: 95%;
 }
 
 .detail_btn {
@@ -242,12 +277,18 @@ select {
     display: block;
 }
 
+.detail_btn_sp {
+    margin: auto;
+    display: block;
+    padding:50px;
+}
+
 .padding_50 {
     padding:50px;
 }
 
 .title_div {
-    padding:50px;
+    padding:50px 0;
     text-align: center;
 }
 
@@ -256,6 +297,22 @@ select {
     letter-spacing: 0.35px;
     color: #DBA57C;
     margin-bottom: 10px;
+}
+
+.cast_name_sp {
+    color: #DBA57C;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cast_name_1 {
+    font: normal normal normal 15px/38px Futura PT;
+    letter-spacing: 0.75px;
+}
+
+.cast_name_2 {
+    font: normal normal normal 30px/38px Futura PT;
+    letter-spacing: 1.5px;
 }
 
 .title_floor {
@@ -340,9 +397,23 @@ select {
     margin: auto;
 }
 
+.cast_list_div_sp {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
 .cast_list_item {
     width:150px;
     margin:10px;
+}
+
+.cast_list_item_sp {
+    width: 29%;
+    margin: 2%;
 }
 
 .cast_list_img {
@@ -350,8 +421,17 @@ select {
     height:230px;
 }
 
+.cast_list_img_sp {
+    width:100%;
+}
+
 .cast_list_name {
     font: normal normal normal 15px/20px Kozuka Mincho Pr6N;
+    margin-top: 5px;
+}
+
+.cast_list_name_sp {
+    font: normal normal normal 13px/15px Kozuka Mincho Pr6N;
     margin-top: 5px;
 }
 
@@ -388,6 +468,20 @@ select {
     display: inline-block;
 }
 
+.cast_img_main_sp {
+    width:100%;
+    padding:0 8px;
+}
+
+.cast_prof_en {
+    font: normal normal normal 30px/30px Futura PT;
+    color: #DBA57C;
+}
+
+.cast_prof_ja {
+    font: normal normal normal 13px/30px Futura PT;
+}
+
 .cast_img_list {
     width:500px;
     display: inline-block;
@@ -413,6 +507,10 @@ select {
     margin:auto;
 }
 
+.news_div_sp {
+    padding: 30px;
+}
+
 .news_genre {
     font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
     color: #DBA57C;
@@ -427,6 +525,11 @@ select {
     margin-bottom: 20px;
 }
 
+.news_title_sp {
+    font: normal normal normal 20px/20px Kozuka Mincho Pr6N;
+    margin: 5px 0 15px;
+}
+
 .news_img {
     width:330px;
     height:250px;
@@ -434,10 +537,19 @@ select {
     display: inline-block;
 }
 
+.news_img_sp {
+    width:100%;
+}
+
 .news_text_short {
     font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
     display: inline-block;
     vertical-align: top;
+}
+
+.news_text_short_sp {
+    font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
+    margin-top: 10px;
 }
 
 .access_div {
@@ -471,7 +583,7 @@ select {
 
 .access_table th, .access_table td {
     border: 1px solid #DBA57C;
-    padding:30px;
+    padding:30px 0;
     width:250px;
 }
 
@@ -488,6 +600,89 @@ select {
 .price_table td {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     color:#000;
+}
+
+.cast_table, .access_table_sp {
+    margin: auto;
+    border: 1px solid #DBA57C;
+    font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
+    color:#fff;
+}
+
+.cast_table td, .access_table_sp td {
+    border-bottom: 1px solid #DBA57C;
+    padding:15px;
+    width:220px;
+}
+
+
+.footer_sp {
+    background-image: url(../img/bg.jpg);
+}
+
+.footer_menu_sp ul {
+    padding:0;
+}
+
+.footer_menu_sp ul li {
+    border-bottom: solid 1px #DBA57C;
+    list-style: none;
+}
+
+.about_ex_sp {
+    font: normal normal bold 14px/30px Futura PT;
+    letter-spacing: 1.5px;
+    color: #000;
+    text-align: center;
+    padding: 150px 0;
+    text-shadow: rgb(255 255 255 / 70%) 1px 1px 15px, rgb(255 255 255 / 70%) -1px 1px 15px, rgb(255 255 255 / 70%) 1px -1px 15px, rgb(255 255 255 / 80%) -1px -1px 15px, rgb(255 255 255 / 80%) 2px 2px 15px, rgb(255 255 255 / 90%) -2px 2px 15px, rgb(255 255 255 / 90%) 2px -2px 15px, rgb(255 255 255 / 90%) -2px -2px 15px;
+}
+
+.floor_img_sp {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.floor_text_sp {
+    text-align: center;
+    padding: 20px 0 50px;
+}
+
+.price_ex1_sp {
+    margin-top: 40px;
+    text-align: center;
+    font: normal normal normal 13px/22px Kozuka Mincho Pr6N;
+}
+
+.price_ex2_sp {
+    text-align: center;
+    font: normal normal normal 15px/22px Kozuka Mincho Pr6N;
+}
+
+.price_ex3_sp {
+    margin-top: 40px;
+    padding:0 20px;
+    font: normal normal normal 11px/22px Kozuka Mincho Pr6N;
+}
+
+.price_ex4_sp {
+    margin-top: 30px;
+    text-align: center;
+    font: normal normal normal 12px/23px Kozuka Mincho Pr6N;
+}
+
+.price_ex5_sp {
+    margin-top: 10px;
+    padding:0 20px;
+    font: normal normal normal 11px/23px Kozuka Mincho Pr6N;
+}
+
+.access_title_sp {
+    font: normal normal normal 18px/36px Kozuka Mincho Pr6N;
+    letter-spacing: 0.9px;
+    color: #DBA57C;
+    text-align: center;
+    padding: 30px 0;
 }
 
 /*以下ハンバーガーメニューについて*/
@@ -561,7 +756,7 @@ select {
     height: 1000px;
     left: 100%;/*leftの値を変更してメニューを画面外へ*/
     z-index: 80;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.jpg);
     transition: all 0.5s;/*アニメーション設定*/
 }
 
@@ -622,4 +817,9 @@ select {
     right: -80px!important; 
     position: absolute;
     opacity:1!important;
+}
+
+.yazi {
+    margin-top: -13px;
+    float: right;
 }
