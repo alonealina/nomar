@@ -67,7 +67,7 @@
         <div class="title_en">Price</div>
     </div>
     <table class="price_table">
-        <tr><th>メンバーお1人様60分</th><th>基本料金</th></tr>
+        <tr><th style="border-right:1px dashed #FFF;">メンバーお1人様60分</th><th style="border-left: 1px dashed #FFF;">基本料金</th></tr>
         <tr><td>SET料金</td><td>￥9,000</td></tr>
         <tr><td>指名料金</td><td>￥3,000</td></tr>
         <tr><td>W指名</td><td>￥5,000</td></tr>
@@ -105,12 +105,11 @@
     <div class="title_div">
         <div class="title_en">営業時間</div>
     </div>
-    <table class="access_table">
-        <tr><th>営業時間</th><th>定休日</th></tr>
-        <tr><td>月～土 PM7:00～LAST</td><td>日曜・祝日</td></tr>
-    </table>
-    <div class="padding_50">
-        <div style="width:315px; height:260px; background-color:gray; margin: auto;"></div>
+    <div style="padding-bottom:50px;">
+        <table class="access_table padding_50">
+            <tr><th style="border-right:1px dashed #FFF;">営業時間</th><th>定休日</th></tr>
+            <tr><td>月～土 PM7:00～LAST</td><td>日曜・祝日</td></tr>
+        </table>
     </div>
 </div>
 
@@ -175,7 +174,7 @@
 <div class="content_div">
     <div class="title_floor">Price</div>
     <table class="price_table">
-        <tr><th>メンバーお1人様60分</th><th>基本料金</th></tr>
+        <tr><th style="border-right:1px dashed #FFF;">メンバーお1人様60分</th><th style="border-left: 1px dashed #FFF;">基本料金</th></tr>
         <tr><td>SET料金</td><td>￥9,000</td></tr>
         <tr><td>指名料金</td><td>￥3,000</td></tr>
         <tr><td>W指名</td><td>￥5,000</td></tr>
@@ -217,12 +216,9 @@
         <div class="access_title_sp">営業時間</div>
     </div>
     <table class="access_table">
-        <tr><th>営業時間</th><th>定休日</th></tr>
+        <tr><th style="border-right:1px dashed #FFF;">営業時間</th><th>定休日</th></tr>
         <tr><td>月～土 PM7:00～LAST</td><td>日曜・祝日</td></tr>
     </table>
-    <div style="height:260px; background-color:gray; margin: 20px;"></div>
-    <div style="height:260px; background-color:gray; margin: 20px;"></div>
-
 </div>
 
 @endsection
