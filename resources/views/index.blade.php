@@ -25,13 +25,12 @@
     </div>
 
     <div class="title_div">
-        <div class="title_en">Cast List</div>
-        <div class="title_ja">キャスト一覧</div>
+        <div class="title_en">Instagram</div>
         <div class="cast_list_ex">
-            CLUB NOMARキャストのご紹介です。<br>
-            ごく一部のご紹介になります。<br>
-            ここではご紹介されていない一流の美女キャストが<br>
-            皆様のご来店をお待ちしています。
+            CLUB NOMARの公式インスタグラムです。<br>
+            在籍キャストのご紹介やイベントの最新情報などを<br>
+            随時更新しています。<br>
+            是非チェックしてください。<br>
         </div>
     </div>
     <div class="cast_list_div">
@@ -100,6 +99,9 @@
         店内は常に換気を徹底しており、安心してお過ごしいただけます。
     </div>
     <img src="{{ asset('img/top_border2.png') }}" class="news_list_btn">
+    <div class="secure_div">
+        テスト<br>テスト<br>テスト<br>テスト<br>テスト<br>テスト<br>
+    </div>
     <img src="{{ asset('img/detail_btn.png') }}" class="detail_btn padding_50">
 
 
@@ -107,14 +109,9 @@
 
 
 
+<script>
 
-<div class="content_div">
-
-</div>
-
-<div class="content_div_bg">
-
-</div>
+</script>
 
 @endsection
 
@@ -146,13 +143,12 @@
 
 <div class="content_div">
     <div class="title_div">
-        <div class="title_en">Cast List</div>
+        <div class="title_en">Instagram</div>
         <div class="title_ja">
-            キャスト一覧<br><br><br>
-            CLUB NOMARキャストのご紹介です。<br>
-            ごく一部のご紹介になります。<br>
-            ここではご紹介されていない一流の美女キャストが<br>
-            皆様のご来店をお待ちしています。
+            CLUB NOMARの公式インスタグラムです。<br>
+            在籍キャストのご紹介やイベントの最新情報などを<br>
+            随時更新しています。<br>
+            是非チェックしてください。<br>
         </div>
     </div>
 

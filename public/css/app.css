@@ -270,6 +270,10 @@ select {
     text-align: center;
 }
 
+.secure_div {
+    text-align: center;
+}
+
 .top_border_sp {
     margin: auto;
     display: block;
