@@ -68,11 +68,15 @@
     </div>
     <table class="price_table">
         <tr><th>メンバーお1人様60分</th><th>基本料金</th></tr>
-        <tr><td>19:00～19:29</td><td>￥5,000</td></tr>
-        <tr><td>19:30～LAST</td><td>￥10,000</td></tr>
-        <tr><td>延長料金(30分毎)</td><td>￥4,000</td></tr>
-        <tr><td>指名料</td><td>￥3,000</td></tr>
-        <tr><td>サービス料</td><td>25%</td></tr>
+        <tr><td>SET料金</td><td>￥9,000</td></tr>
+        <tr><td>指名料金</td><td>￥3,000</td></tr>
+        <tr><td>W指名</td><td>￥5,000</td></tr>
+        <tr><td>同伴料金</td><td>￥5,000</td></tr>
+        <tr><td>延長料金(30分毎)</td><td>￥5,000</td></tr>
+        <tr><td>延長料金(60分毎)</td><td>￥9,000</td></tr>
+        <tr><td>VIP料金(小ルーム)(Set毎)</td><td>￥10,000</td></tr>
+        <tr><td>VIP料金(大ルーム)(Set毎)</td><td>￥20,000</td></tr>
+        <tr><td>サービス料</td><td>35%</td></tr>
     </table>
     <div class="price_ex1">
         各種カードがご利用いただけます<br>
@@ -172,11 +176,15 @@
     <div class="title_floor">Price</div>
     <table class="price_table">
         <tr><th>メンバーお1人様60分</th><th>基本料金</th></tr>
-        <tr><td>19:00～19:29</td><td>￥5,000</td></tr>
-        <tr><td>19:30～LAST</td><td>￥10,000</td></tr>
-        <tr><td>延長料金(30分毎)</td><td>￥4,000</td></tr>
-        <tr><td>指名料</td><td>￥3,000</td></tr>
-        <tr><td>サービス料</td><td>25%</td></tr>
+        <tr><td>SET料金</td><td>￥9,000</td></tr>
+        <tr><td>指名料金</td><td>￥3,000</td></tr>
+        <tr><td>W指名</td><td>￥5,000</td></tr>
+        <tr><td>同伴料金</td><td>￥5,000</td></tr>
+        <tr><td>延長料金(30分毎)</td><td>￥5,000</td></tr>
+        <tr><td>延長料金(60分毎)</td><td>￥9,000</td></tr>
+        <tr><td>VIP料金(小ルーム)<br>(Set毎)</td><td>￥10,000</td></tr>
+        <tr><td>VIP料金(大ルーム)<br>(Set毎)</td><td>￥20,000</td></tr>
+        <tr><td>サービス料</td><td>35%</td></tr>
     </table>
     <div class="price_ex1_sp">各種カードがご利用いただけます</div>
     <div class="price_ex2_sp">JCB / VISA / AMEX / DINERS / DC / UC / MASTER</div>

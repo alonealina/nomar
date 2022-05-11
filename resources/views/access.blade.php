@@ -9,10 +9,10 @@
     <div class="access_div">
         <div class="access_detail">
             <div class="access_column">
-                <span class="access_span">住所</span>大阪市北区曽根埼北新地
+                <span class="access_span">住所</span>大阪市北区堂島1-2-7-2階
             </div>
             <div class="access_column">
-                <span class="access_span">電話番号</span>06-0000-0000
+                <span class="access_span">電話番号</span>06-6225-8098
             </div>
             <div class="access_column" style="border-bottom:1px solid #DBA57C;">
                 <span class="access_span">電車でお越しの方</span>JR東西線北新地駅
@@ -46,8 +46,8 @@
 <div class="content_div_bg" style="padding-bottom:50px">
     <div class="access_title_sp">アクセス</div>
     <table class="access_table_sp">
-        <tr><td>電話番号</td><td>06-0000-0000</td></tr>
-        <tr><td>住所</td><td>大阪市北区曽根埼北新地</td></tr>
+        <tr><td>電話番号</td><td>06-6225-8098</td></tr>
+        <tr><td>住所</td><td>大阪市北区堂島1-2-7-2階</td></tr>
         <tr><td>電車でお越しの方</td><td>JR東西線北新地駅</td></tr>
     </table>
     <div class="access_title_sp">営業時間</div>
