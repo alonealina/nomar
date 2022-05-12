@@ -20,8 +20,8 @@
         </div>
     </div>
     <div style="height:500px; display: flex; justify-content: space-between; width:650px; margin:auto;">
-        <div style="width:315px; height:260px; background-color:gray;"></div>
-        <div style="width:315px; height:260px; background-color:gray;"></div>
+        <div style="width:320px; height:180px; background-color:gray;"></div>
+        <div style="width:320px; height:180px; background-color:gray;"></div>
     </div>
 
     <div class="title_div">
@@ -100,10 +100,18 @@
     </div>
     <img src="{{ asset('img/top_border2.png') }}" class="news_list_btn">
     <div class="secure_div">
-        テスト<br>テスト<br>テスト<br>テスト<br>テスト<br>テスト<br>
+        全スタッフが新型コロナ抗体検査キットによる検査を実施。<br>
+        女性キャストも全員実施しています。<br><br>
+        ・従業員の入店時の検温<br>
+        ・店内消毒の散布<br>
+        ・店内接触部分の消毒<br>
+        ・店内の換気<br>
+        営業にあたり、店内の徹底的な消毒につとめ、お客様ならびに従業員の安全を確保し、<br>
+        安心して楽しんでいただけるよう努めてまいります。
     </div>
-    <img src="{{ asset('img/detail_btn.png') }}" class="detail_btn padding_50">
-
+    <div class="more_view_btn">
+        <img src="{{ asset('img/detail_open_btn.png') }}" class="detail_btn">
+    </div>
 
 </div>
 
@@ -222,7 +230,20 @@
         安心してお過ごしいただけます。
     </div>
     <img src="{{ asset('img/top_border2_sp.png') }}" class="top_border_sp">
-    <img src="{{ asset('img/detail_btn_sp.png') }}" class="detail_btn_sp">
+    <div class="secure_div">
+        全スタッフが新型コロナ抗体検査キットによる検査を実施。<br>
+        女性キャストも全員実施しています。<br><br>
+        ・従業員の入店時の検温<br>
+        ・店内消毒の散布<br>
+        ・店内接触部分の消毒<br>
+        ・店内の換気<br>
+        営業にあたり、店内の徹底的な消毒につとめ、<br>
+        お客様ならびに従業員の安全を確保し、<br>
+        安心して楽しんでいただけるよう努めてまいります。
+    </div>
+    <div class="more_view_btn_sp">
+        <img src="{{ asset('img/detail_open_btn_sp.png') }}" class="detail_btn_sp">
+    </div>
 
 
 

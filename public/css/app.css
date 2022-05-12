@@ -163,6 +163,12 @@ select {
     height:49px;
 }
 
+.footer_logo {
+    width:350px;
+    margin: auto;
+    display: block;
+}
+
 .footer_logo_sp {
     width:180px;
     margin: auto;
@@ -272,6 +278,7 @@ select {
 
 .secure_div {
     text-align: center;
+    margin-top: 50px;
 }
 
 .top_border_sp {
@@ -280,9 +287,16 @@ select {
     width: 95%;
 }
 
+.more_view_btn {
+    margin: auto;
+    width:300px;
+    padding:50px 0;
+}
+
 .detail_btn {
     margin: auto;
     display: block;
+    cursor: pointer;
 }
 
 .detail_btn_sp {

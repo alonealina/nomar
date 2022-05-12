@@ -49,6 +49,7 @@
             @yield('content')
 
             <footer>
+                <a href="/"><img src="{{ asset('img/logo.png') }}" class="footer_logo" alt=""></a>
                 <div class="footer_nomar">CLUB NOMAR KITASHINCHI</div>
                 <div class="footer_menu">
                     <a href="{{ route('about') }}" class="footer_a">
@@ -186,6 +187,5 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/slick.js') }}"></script>
-    <script src="{{ asset('js/girl.js') }}"></script>
 
 </html>
