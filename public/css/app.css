@@ -237,6 +237,17 @@ select {
     letter-spacing: 1.8px;
 }
 
+.recruit_explain {
+    text-align: center;
+    font: normal normal normal 15px/20px Kozuka Mincho Pr6N;
+    letter-spacing: 1.8px;
+}
+
+.qr_img {
+    width: 230px;
+    margin: 30px 0;
+}
+
 .top_news_div {
     width:1020px;
     margin: auto;
@@ -404,7 +415,7 @@ select {
     margin-bottom: 80px;
 }
 
-.cast_list_ex {
+.insta_ex {
     margin-top:20px;
     margin-bottom: 50px;
     font: normal normal normal 16px/20px Kozuka Mincho Pr6N;

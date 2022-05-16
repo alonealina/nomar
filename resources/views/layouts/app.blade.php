@@ -39,7 +39,7 @@
                         <p class="header_en">Access</p>
                         <p class="header_ja">アクセス</p>
                     </a>
-                    <a href="" class="header_a">
+                    <a href="{{ route('recruit') }}" class="header_a">
                         <p class="header_en">Recruit</p>
                         <p class="header_ja">求人情報</p>
                     </a>
@@ -70,7 +70,7 @@
                         <p class="header_en">Access</p>
                         <p class="header_ja">アクセス</p>
                     </a>
-                    <a href="" class="footer_a">
+                    <a href="{{ route('recruit') }}" class="footer_a">
                         <p class="header_en">Recruit</p>
                         <p class="header_ja">求人情報</p>
                     </a>
@@ -125,7 +125,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href ="" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
+                                <a href ="{{ route('recruit') }}" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
                                     <span class="sp_menu_en">Recruit</span><br>
                                     <span class="sp_menu_ja">求人</span>
                                     <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">
@@ -170,7 +170,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href ="" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
+                            <a href ="{{ route('recruit') }}" class="menu_content_sp @if (strpos($now_route,'recruit') !== false) current @endif">
                                 <span class="sp_menu_en">Recruit</span><br>
                                 <span class="sp_menu_ja">求人</span>
                                 <img src="{{ asset('img/yazi.png') }}" class="yazi" alt="">

@@ -43,6 +43,11 @@ class NomarController extends Controller
         return view('access');
     }
 
+    public function recruit()
+    {
+        return view('recruit');
+    }
+
     public function search(Request $request)
     {
         $filter_array = $request->all();

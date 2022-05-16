@@ -26,53 +26,14 @@
 
     <div class="title_div">
         <div class="title_en">Instagram</div>
-        <div class="cast_list_ex">
+        <div class="insta_ex">
             CLUB NOMARの公式インスタグラムです。<br>
             在籍キャストのご紹介やイベントの最新情報などを<br>
             随時更新しています。<br>
             是非チェックしてください。<br>
         </div>
     </div>
-    <div class="cast_list_div">
-        <div class="cast_list_item">
-            <a href="{{ route('cast_profile') }}">
-                <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-                <div class="cast_list_name">AMANE<br>あまね</div>
-            </a>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img">
-            <div class="cast_list_name">AMANE<br>あまね</div>
-        </div>
-    </div>
+
     <div style="width:315px; height:260px; background-color:gray; margin: auto; margin-bottom:80px;"></div>
 
     <div class="title_div">
@@ -160,46 +121,7 @@
         </div>
     </div>
 
-    <div class="cast_list_div_sp">
-        <div class="cast_list_item_sp">
-            <a href="{{ route('cast_profile') }}">
-                <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-                <div class="cast_list_name_sp">AMANE<br>あまね</div>
-            </a>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-        <div class="cast_list_item_sp">
-            <img src="{{ asset('img/cast1.jpg') }}" class="cast_list_img_sp">
-            <div class="cast_list_name_sp">AMANE<br>あまね</div>
-        </div>
-    </div>
+
 
 </div>
 

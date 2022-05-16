@@ -5,7 +5,7 @@
     <div class="title_div">
         <div class="title_en">Cast List</div>
         <div class="title_ja">キャスト一覧</div>
-        <div class="cast_list_ex">
+        <div class="insta_ex">
             CLUB NOMARキャストのご紹介です。<br>
             ごく一部のご紹介になります。<br>
             ここではご紹介されていない一流の美女キャストが<br>
