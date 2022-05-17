@@ -1,11 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="top_content header_margin">
-    <img src="{{ asset('img/top_first_view.jpg') }}" class="">
-</div>
+<img src="{{ asset('img/top_first_view.jpg') }}" class="top_img header_margin">
 
-<div class="content_div_bg">
+<div class="content_div_bg" style="margin-top: -4px;">
     <div class="title_div">
         <div class="title_en">About</div>
         <div class="top_about_explain">

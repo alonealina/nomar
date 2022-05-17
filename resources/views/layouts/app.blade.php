@@ -39,7 +39,7 @@
                         <p class="header_en">Access</p>
                         <p class="header_ja">アクセス</p>
                     </a>
-                    <a href="{{ route('recruit') }}" class="header_a">
+                    <a href="{{ route('recruit') }}" class="header_a" style="border-right: 1px solid;">
                         <p class="header_en">Recruit</p>
                         <p class="header_ja">求人情報</p>
                     </a>
