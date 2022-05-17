@@ -23,7 +23,7 @@
                     <a class="logo_a" href="/">
                         <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                     </a>
-                    <a href="{{ route('about') }}" class="header_a" style="width: 145px;">
+                    <a href="{{ route('about') }}" class="header_a" style="width: 150px;">
                         <p class="header_en">About</p>
                         <p class="header_ja">CLUB NOMARとは</p>
                     </a>
