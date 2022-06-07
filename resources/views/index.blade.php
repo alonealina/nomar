@@ -66,7 +66,7 @@
         ・手に触れる部分（ドアノブ等）の消毒<br>
         ・定期的な換気<br><br>
         お客様の安全の為、徹底した対応を行なっております。<br>
-        是非ご安心いただき、CLUB NOMARでお寛ぎください。 
+        是非ご安心いただき、CLUB NOMARでお寛ぎください。
     </div>
     <div class="more_view_btn">
         <img src="{{ asset('img/detail_open_btn.png') }}" class="detail_btn">
