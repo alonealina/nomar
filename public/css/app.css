@@ -236,6 +236,11 @@ select {
     background-image: url(../img/bg_sp.jpg);
     background-size: 100%;
     color:#000;
+    padding-top:250px;
+    font-size: 27px;
+    font-family: 'Yu Mincho', 'YuMincho', '游明朝', "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", Helvetica Neue, Helvetica, Arial, serif;
+    text-align: center;
+    text-shadow: rgb(255 255 255 / 70%) 1px 1px 15px, rgb(255 255 255 / 70%) -1px 1px 15px, rgb(255 255 255 / 70%) 1px -1px 15px, rgb(255 255 255 / 80%) -1px -1px 15px, rgb(255 255 255 / 80%) 2px 2px 15px, rgb(255 255 255 / 90%) -2px 2px 15px, rgb(255 255 255 / 90%) 2px -2px 15px, rgb(255 255 255 / 90%) -2px -2px 15px;
 }
 
 .top_content {
@@ -308,6 +313,12 @@ select {
     text-align: center;
     margin-top: 50px;
     font: normal normal normal 16px/25px Kozuka Mincho Pr6N;
+}
+
+.secure_div_sp {
+    text-align: center;
+    margin-top: 50px;
+    font: normal normal normal 14px/22px Kozuka Mincho Pr6N;
 }
 
 .top_border_sp {
