@@ -20,7 +20,7 @@
         <body>
             <header class="header_pc">
                 <div class="header_menu">
-                    <a class="logo_a" href="/">
+                    <a class="logo_a" href="{{ route('index') }}">
                         <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                     </a>
                     <a href="{{ route('about') }}" class="header_a" style="width: 160px;">
@@ -49,7 +49,7 @@
             @yield('content')
 
             <footer>
-                <a href="/"><img src="{{ asset('img/logo.png') }}" class="footer_logo" alt=""></a>
+                <a href="{{ route('index') }}"><img src="{{ asset('img/logo.png') }}" class="footer_logo" alt=""></a>
                 <div class="footer_nomar">CLUB NOMAR KITASHINCHI</div>
                 <div class="footer_menu">
                     <a href="{{ route('about') }}" class="footer_a">
@@ -88,7 +88,7 @@
     @endphp
         <body>
             <header class="header_sp">
-                <a class="logo_a_sp" href="/">
+                <a class="logo_a_sp" href="{{ route('index') }}">
                     <img src="{{ asset('img/logo.png') }}" class="logo_img_sp" alt="">
                 </a>
                 <div class="hamburger-menu">
@@ -138,7 +138,7 @@
             @yield('content_sp')
 
             <footer class="footer_sp">
-                <a href="/"><img src="{{ asset('img/logo.png') }}" class="footer_logo_sp" alt=""></a>
+                <a href="{{ route('index') }}"><img src="{{ asset('img/logo.png') }}" class="footer_logo_sp" alt=""></a>
                 <div class="footer_menu_sp">
                     <ul>
                         <li>
