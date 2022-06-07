@@ -99,6 +99,16 @@ p {
     width: 100%;
 }
 
+.top_bg_div {
+    background-image: url(../img/top_first_view.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50%;
+    min-width: 1000px;
+    padding-top: 100px;
+    text-shadow: rgb(255 255 255 / 70%) 1px 1px 15px, rgb(255 255 255 / 70%) -1px 1px 15px, rgb(255 255 255 / 70%) 1px -1px 15px, rgb(255 255 255 / 80%) -1px -1px 15px, rgb(255 255 255 / 80%) 2px 2px 15px, rgb(255 255 255 / 90%) -2px 2px 15px, rgb(255 255 255 / 90%) 2px -2px 15px, rgb(255 255 255 / 90%) -2px -2px 15px;
+}
+
 footer {
     padding-top: 30px;
     padding-bottom:10px;

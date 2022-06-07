@@ -1,22 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-<img src="{{ asset('img/top_first_view.jpg') }}" class="top_img header_margin">
-
-<div class="content_div_bg" style="margin-top: -4px;">
+<div class="top_bg_div header_margin">
     <div class="title_div">
-        <div class="title_en">About</div>
+        <div class="title_en">ABOUT</div>
         <div class="top_about_explain">
-            CLUB NOMARとは<br><br>
-            本物のラグジュアリーと落ち着いた時間を追求した<br>
-            大人の為の空間です。<br><br>
-            美意識が高く、ご来店いただく紳士様達に<br>
-            より一層楽しんで頂くために努力を惜しまない<br>
-            一流の女性キャストが揃っております。<br><br>
-            私どもはお客さまの満足を追求し一流の<br>
-            おもてなしで、一流の皆様をお待ちしています。
+            CLUB NOMARのご紹介<br><br>
+            日本有数の社交街である北新地に、大人の品格漂う皆様の為に<br>
+            CLUB NOMARは誕生しました。<br><br>
+            ラグジュアリーな本当の大人の空間で皆さまをお待ちしております。<br><br>
+            美貌のみならず、おもてなしの心を持った当店のキャストが<br>
+            紳士の皆様をお迎えします。<br><br>
+            どうぞCLUB NOMARへお越しください。
         </div>
     </div>
+</div>
+
+<div class="content_div_bg" style="padding-top: 100px;">
     <div style="height:500px; display: flex; justify-content: space-between; width:650px; margin:auto;">
         <div style="width:320px; height:180px; background-color:gray;"></div>
         <div style="width:320px; height:180px; background-color:gray;"></div>
@@ -50,23 +50,23 @@
         <img src="{{ asset('img/news_list_btn.png') }}" class="news_list_btn">
     </a>
 
-    <div class="top_secure" style="padding-top:80px;">【CLUB NOMAR安全対策】</div>
+    <div class="top_secure" style="padding-top:80px;">【CLUB NOMARコロナ対策】</div>
 
     <img src="{{ asset('img/top_border1.png') }}" class="news_list_btn">
     <div class="top_secure_orange">
-        スタッフは新型コロナウイルスのワクチンを接種しています。<br>
-        店内は常に換気を徹底しており、安心してお過ごしいただけます。
+        当店のスタッフ、キャストにはワクチン接種を厳守させ<br>
+        店内の換気・衛生状況には十分な対応をしております。
     </div>
     <img src="{{ asset('img/top_border2.png') }}" class="news_list_btn">
     <div class="secure_div">
-        全スタッフが新型コロナ抗体検査キットによる検査を実施。<br>
-        女性キャストも全員実施しています。<br><br>
-        ・従業員の入店時の検温<br>
-        ・店内消毒の散布<br>
-        ・店内接触部分の消毒<br>
-        ・店内の換気<br>
-        営業にあたり、店内の徹底的な消毒につとめ、お客様ならびに従業員の安全を確保し、<br>
-        安心して楽しんでいただけるよう努めてまいります。
+        関係する全スタッフがPCR検査を実施。<br><br>
+        毎日の確認として<br>
+        ・入店時の検温<br>
+        ・殺菌スプレーの店内散布<br>
+        ・手に触れる部分（ドアノブ等）の消毒<br>
+        ・定期的な換気<br><br>
+        お客様の安全の為、徹底した対応を行なっております。<br>
+        是非ご安心いただき、CLUB NOMARでお寛ぎください。
     </div>
     <div class="more_view_btn">
         <img src="{{ asset('img/detail_open_btn.png') }}" class="detail_btn">
