@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="top_bg_div header_margin">
+<div class="top_bg_div header_margin">品格ある紳士の為にCLUB NOMARはあります。</div>
+
+<div class="content_div_bg" style="padding-top: 100px;">
     <div class="title_div">
         <div class="title_en">ABOUT</div>
         <div class="top_about_explain">
@@ -14,9 +16,6 @@
             どうぞCLUB NOMARへお越しください。
         </div>
     </div>
-</div>
-
-<div class="content_div_bg" style="padding-top: 100px;">
     <div style="height:500px; display: flex; justify-content: space-between; width:650px; margin:auto;">
         <div style="width:320px; height:180px; background-color:gray;"></div>
         <div style="width:320px; height:180px; background-color:gray;"></div>

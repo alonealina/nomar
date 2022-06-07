@@ -105,7 +105,10 @@ p {
     background-size: cover;
     background-position: 50%;
     min-width: 1000px;
-    padding-top: 100px;
+    padding-top: 280px;
+    font-size: 35px;
+    font-family: 'Yu Mincho', 'YuMincho', '游明朝', "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", Helvetica Neue, Helvetica, Arial, serif;
+    text-align: center;
     text-shadow: rgb(255 255 255 / 70%) 1px 1px 15px, rgb(255 255 255 / 70%) -1px 1px 15px, rgb(255 255 255 / 70%) 1px -1px 15px, rgb(255 255 255 / 80%) -1px -1px 15px, rgb(255 255 255 / 80%) 2px 2px 15px, rgb(255 255 255 / 90%) -2px 2px 15px, rgb(255 255 255 / 90%) 2px -2px 15px, rgb(255 255 255 / 90%) -2px -2px 15px;
 }
 
