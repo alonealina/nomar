@@ -15,6 +15,9 @@
         <div class="news_list_title">
             <div class="news_item_name"></div>
         </div>
+        <div class="news_list_genre">
+            <div class="news_item_name_10px">ジャンル</div>
+        </div>
         <div class="news_list_status">
             <div class="news_item_name_10px">ステータス</div>
         </div>
@@ -29,6 +32,9 @@
         </div>
         <div class="news_list_title">
             <div class="news_item_left">{{ $news->title }}</div>
+        </div>
+        <div class="news_list_genre">
+            <div class="news_item_name">{{ $news->name }}</div>
         </div>
         <div class="news_list_status news_gray">
             <div class="news_item_name">@if($news->release_flg == 1) 公開 @else 非公開 @endif</div>

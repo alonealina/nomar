@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>News管理ページ</title>
+        <title>NOMAR管理ページ</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
@@ -17,7 +17,11 @@
         <header class="mb-4">
             <nav class="header_content">
                 <a href="{{ route('admin.news_list') }}"><img src="{{ asset('img/logo.png') }}" class="logo"></a>
-                <div class="page_title">News管理ページ</div>
+                <div class="admin_menu">
+                    <a href="{{ route('admin.news_list') }}" class="admin_menu_a">News管理</a>
+                    <a href="{{ route('admin.genre_list') }}" class="admin_menu_a">ジャンル管理</a>
+                </div>
+                <div class="page_title">NOMAR管理ページ</div>
             </nav>
         </header>
         @endif

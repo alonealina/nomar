@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\News;
+use App\Models\Genre;
 use App\Models\Adminuser;
 use DB;
 
@@ -52,7 +53,8 @@ class NomarController extends Controller
 
     public function news_list_admin()
     {
-        $news_list = News::orderBy('updated_at', 'desc')->paginate(10);
+        $news_list = News::select('news.id as id','news.title','news.content','news.img','news.notice_date','news.release_flg',
+            'news.updated_at as updated_at','genres.name')->orderBy('updated_at', 'desc')->join('genres', 'genres.id', '=', 'news.genre_id')->paginate(10);
         return view('news_list_admin', [
             'news_list' => $news_list,
         ]);
@@ -187,6 +189,101 @@ class NomarController extends Controller
             News::where('id', $id)->delete();
             DB::commit();
             return redirect()->route('admin.news_list')->with('message', 'お知らせ情報を削除しました');
+        } catch (\Exception $e) {
+            DB::rollback();
+        }
+    }
+
+    public function genre_list()
+    {
+        $genre_list = Genre::orderBy('id', 'asc')->get();
+        return view('genre_list', [
+            'genre_list' => $genre_list,
+        ]);
+    }
+
+    public function genre_regist()
+    {
+        return view('genre_regist');
+    }
+
+    public function genre_store(Request $request)
+    {
+        $rules = [
+            'name' => ['max:20', 'required'],
+        ];
+
+        $messages = [
+            'name.max' => 'ジャンル名は20文字以下でお願いします',
+            'name.required' => 'ジャンル名を入力してください',
+        ];
+
+        Validator::make($request->all(), $rules, $messages)->validate();
+
+        $genre = new Genre();
+
+        $request = $request->all();
+        $fill_data = [
+            'name' => $request['name'],
+        ];
+
+        DB::beginTransaction();
+        try {
+            $genre->fill($fill_data)->save();
+
+            DB::commit();
+            return redirect()->to('club-nomar/admin/genre_list')->with('message', '登録が完了いたしました。');
+        } catch (\Exception $e) {
+            DB::rollback();
+        }
+    }
+
+    public function genre_edit($id)
+    {
+        $genre = Genre::find($id);
+        return view('genre_edit', [
+            'genre' => $genre,
+        ]);
+    }
+
+    public function genre_update(Request $request)
+    {
+        $rules = [
+            'name' => ['max:20', 'required'],
+        ];
+
+        $messages = [
+            'name.max' => 'ジャンル名は20文字以下でお願いします',
+            'name.required' => 'ジャンル名を入力してください',
+        ];
+
+        Validator::make($request->all(), $rules, $messages)->validate();
+
+        $request = $request->all();
+        $genre = Genre::find($request['id']);
+
+        $fill_data = [
+            'name' => $request['name'],
+        ];
+
+        DB::beginTransaction();
+        try {
+            $genre->update($fill_data);
+
+            DB::commit();
+            return redirect()->to('club-nomar/admin/genre_list')->with('message', 'ジャンル名の更新が完了いたしました。');
+        } catch (\Exception $e) {
+            DB::rollback();
+        }
+    }
+
+    public function genre_delete($id)
+    {
+        DB::beginTransaction();
+        try {
+            Genre::where('id', $id)->delete();
+            DB::commit();
+            return redirect()->route('admin.genre_list')->with('message', 'ジャンル名情報を削除しました');
         } catch (\Exception $e) {
             DB::rollback();
         }

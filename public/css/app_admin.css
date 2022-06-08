@@ -45,6 +45,7 @@ html {
     width: 100%;
     font: normal normal normal 14px/21px Hiragino Sans;
     color: #262626;
+    min-width: 1000px;
 }
 
 .news_list_column {
@@ -58,11 +59,15 @@ html {
 }
 
 .news_list_title {
-    width: 45%;
+    width: 32%;
+}
+
+.news_list_genre {
+    width: 18%;
 }
 
 .news_list_status {
-    width: 18%;
+    width: 13%;
 }
 
 .news_list_button {
@@ -75,6 +80,10 @@ html {
 
 .news_item_name, .news_item_left {
     margin: 20px;
+}
+
+.genre_list_name {
+    width: 77%;
 }
 
 .news_item_name, .news_item_name_10px {
@@ -194,4 +203,14 @@ select {
 
 .img_tmb_main img {
     width: 100%;
+}
+
+.admin_menu {
+    width: 400px;
+    padding-top: 20px;
+}
+
+.admin_menu_a {
+    margin:0 20px;
+    color: #262626;
 }

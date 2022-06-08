@@ -18,6 +18,13 @@ Route::get('club-nomar/admin/news_edit/{id}/', 'App\Http\Controllers\NomarContro
 Route::post('club-nomar/admin/news_update', 'App\Http\Controllers\NomarController@news_update')->name('admin.news_update')->middleware('login_admin');
 Route::get('club-nomar/admin/news_delete/{id}/', 'App\Http\Controllers\NomarController@news_delete')->name('admin.news_delete')->middleware('login_admin');
 
+Route::get('club-nomar/admin/genre_list', 'App\Http\Controllers\NomarController@genre_list')->name('admin.genre_list')->middleware('login_admin');
+Route::get('club-nomar/admin/genre_regist', 'App\Http\Controllers\NomarController@genre_regist')->name('admin.genre_regist')->middleware('login_admin');
+Route::post('club-nomar/admin/genre_store', 'App\Http\Controllers\NomarController@genre_store')->name('admin.genre_store')->middleware('login_admin');
+Route::get('club-nomar/admin/genre_edit/{id}/', 'App\Http\Controllers\NomarController@genre_edit')->name('admin.genre_edit')->middleware('login_admin');
+Route::post('club-nomar/admin/genre_update', 'App\Http\Controllers\NomarController@genre_update')->name('admin.genre_update')->middleware('login_admin');
+Route::get('club-nomar/admin/genre_delete/{id}/', 'App\Http\Controllers\NomarController@genre_delete')->name('admin.genre_delete')->middleware('login_admin');
+
 // 管理側ログイン
 Route::get('club-nomar/admin/login', function () { return view('login_admin'); });
 
