@@ -102,7 +102,7 @@ class NomarController extends Controller
             $news->fill($fill_data)->save();
 
             if ($img_name) {
-                $target_path = public_path('news/');
+                $target_path = public_path('img/news/');
                 $img->move($target_path, $img_name);    
             }
 
@@ -164,7 +164,7 @@ class NomarController extends Controller
         try {
             $news->update($fill_data);
 
-            $target_path = public_path('news/');
+            $target_path = public_path('img/news/');
 
             if ($img && $old_img) {
                 if(file_exists($target_path . $old_img)){

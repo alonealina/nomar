@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/news
+/public/img/news
 /storage/*.key
 /vendor
 .env
