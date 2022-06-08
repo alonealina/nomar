@@ -35,6 +35,18 @@
         </div>
 
         <div class="flex_form_item flex_news_content">
+            <div class="felx_form_title">ジャンル</div>
+            <div class="felx_form_content">
+                <select name="genre_id">
+                    @foreach ($genre_list as $genre)
+                    <option value="{{ $genre->id }}"
+                        @if(old('genre_id') == $genre->id) selected @endif >{{ $genre->name }}</option>
+                    @endforeach
+                </select>
+            </div>
+        </div>
+
+        <div class="flex_form_item flex_news_content">
             <div class="felx_form_title">公開設定</div>
             <div class="felx_form_content">
                 <select name="release">

@@ -38,7 +38,12 @@ class NomarController extends Controller
 
     public function news_list()
     {
-        return view('news_list');
+        $news_list = News::select('news.id as id','news.title','news.content','news.img','news.notice_date','news.release_flg',
+        'news.updated_at as updated_at','genres.name')->where('news.release_flg', '=', '1')->orderBy('updated_at', 'desc')->join('genres', 'genres.id', '=', 'news.genre_id')->paginate(10);
+
+        return view('news_list', [
+            'news_list' => $news_list,
+        ]);
     }
 
     public function access()
@@ -62,7 +67,10 @@ class NomarController extends Controller
 
     public function news_regist()
     {
-        return view('news_regist');
+        $genre_list = Genre::orderBy('id', 'asc')->get();
+        return view('news_regist', [
+            'genre_list' => $genre_list,
+        ]);
     }
 
     public function news_store(Request $request)
@@ -94,6 +102,7 @@ class NomarController extends Controller
         $fill_data = [
             'title' => $request['title'],
             'content' => $request['content'],
+            'genre_id' => $request['genre_id'],
             'release_flg' => $request['release'] == 1 ? 1 : 0,
             'notice_date' => date('Y/m/d'),
             'img' => $img_name,
@@ -117,9 +126,12 @@ class NomarController extends Controller
 
     public function news_edit($id)
     {
+        $genre_list = Genre::orderBy('id', 'asc')->get();
+
         $news = News::find($id);
         return view('news_edit', [
             'news' => $news,
+            'genre_list' => $genre_list,
         ]);
     }
 
@@ -152,6 +164,7 @@ class NomarController extends Controller
         $fill_data = [
             'title' => $request['title'],
             'content' => $request['content'],
+            'genre_id' => $request['genre_id'],
             'release_flg' => $request['release'] == 1 ? 1 : 0,
             'notice_date' => date('Y/m/d'),
         ];

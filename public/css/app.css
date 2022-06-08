@@ -607,6 +607,7 @@ select {
     font: normal normal normal 13px/20px Kozuka Mincho Pr6N;
     display: inline-block;
     vertical-align: top;
+    width: 500px;
 }
 
 .news_text_short_sp {

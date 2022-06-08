@@ -36,6 +36,19 @@
         </div>
 
         <div class="flex_form_item flex_news_content">
+            <div class="felx_form_title">ジャンル</div>
+            <div class="felx_form_content">
+                <select name="genre_id">
+                    @foreach ($genre_list as $genre)
+                    <option value="{{ $genre->id }}"
+                        @if(old('genre_id') == $genre->id) selected 
+                        @elseif(empty(old('genre_id')) && $genre->id == $news->genre_id) selected @endif >{{ $genre->name }}</option>
+                    @endforeach
+                </select>
+            </div>
+        </div>
+
+        <div class="flex_form_item flex_news_content">
             <div class="felx_form_title">公開設定</div>
             <div class="felx_form_content">
                 <select name="release">
@@ -50,7 +63,7 @@
             <div class="felx_form_title">画像</div>
             <div class="felx_form_content">
                 <div class="regist_file_button"><input type="file" id="file_btn_main" accept="image/*" onclick="fileCheckMain();" name="img"></div>
-                <div class="img_tmb_main" style="max-width: 300px; margin: 30px 0;"><img src="{{ asset('img/news/' . $news->img) }}" class=""></div>
+                <div class="img_tmb_main" style="max-width: 300px; margin: 30px 0;">@if($news->img)<img src="{{ asset('img/news/' . $news->img) }}" class="">@endif</div>
             </div>
         </div>
         <div class="d-flex justify-content-center news_paginate">
