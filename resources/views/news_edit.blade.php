@@ -46,6 +46,13 @@
                 </select>
             </div>
         </div>
+        <div class="flex_form_item flex_news_content">
+            <div class="felx_form_title">画像</div>
+            <div class="felx_form_content">
+                <div class="regist_file_button"><input type="file" id="file_btn_main" accept="image/*" onclick="fileCheckMain();" name="img"></div>
+                <div class="img_tmb_main" style="max-width: 300px; margin: 30px 0;"><img src="{{ asset('news/' . $news->img) }}" class=""></div>
+            </div>
+        </div>
         <div class="d-flex justify-content-center news_paginate">
             <a href="#" onclick="clickEditButton()"><img src="{{ asset('img/update_button.png') }}" class="regist_button"></a>
         </div>

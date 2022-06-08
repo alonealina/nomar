@@ -191,3 +191,7 @@ select {
 .button_list_index {
     display: flex;
 }
+
+.img_tmb_main img {
+    width: 100%;
+}
