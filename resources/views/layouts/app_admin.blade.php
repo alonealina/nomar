@@ -2,47 +2,30 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>Cポンお店ナビ</title>
+        <title>News管理ページ</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-        <link rel="icon" type="image/png" href="https://mall.cpon.co.jp/favicon.png">
+        <link rel="icon" type="image/png" href="../img/favicon.png" sizes="16x16">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
         <link href="{{ asset('css/app_admin.css') }}" rel="stylesheet">
     </head>
-    <!-- <div class="loader-wrap">
-        <div class="loader"></div>
-        <div class="loader_text">Loading...</div>
-    </div> -->
+
 
     <body>
         @if(!empty(Session::get('login_id')))
-        <header>
-            <nav class="navbar">
-                <a class="navbar-brand" href=""{{ route('admin.index') }}">
-                    <img src="{{ asset('img/logo2.png') }}" class="cpon_logo" alt="">
-                </a>
-                <div class="header_user">
-                    <div class="header_user_name"><img src="{{ asset('img/user.png') }}" class="" alt="">　{{ Session::get('name') }}　</div>
-
-                    <div class="logout_button">
-                        <a href="{{ route('admin.logout') }}">ログアウト</a>
-                    </div>
-                    
-                </div>
+        <header class="mb-4">
+            <nav class="header_content">
+                <a href="{{ route('admin.news_list') }}"><img src="../../img/logo.png" class="logo"></a>
+                <div class="page_title">News管理ページ</div>
             </nav>
         </header>
         @endif
-        <div class="flexible-list">
-            @if(!empty(Session::get('login_id')))
-                <aside id="column-side" class="flexible-list-side">
-                @include('admin.item.sidemenu')
-                </aside>
-            @endif
-            <div class="flexible-list-main" id="flexible-list-main">
-                @yield('content')
-            </div>
+
+        <div id="admin_content">
+            @yield('content')
         </div>
+
 
     </body>
 
