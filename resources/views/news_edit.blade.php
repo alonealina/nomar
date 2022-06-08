@@ -2,7 +2,7 @@
 
 @section('content')
 
-<a href="{{ route('admin.news_list') }}"><img src="../../img/newslist_button.png" class=""></a>
+<a href="{{ route('admin.news_list') }}"><img src="{{ asset('img/newslist_button.png') }}" class=""></a>
 
 
 <div class="news_list">
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center news_paginate">
-            <a href="#" onclick="clickEditButton()"><img src="../../img/update_button.png" class="regist_button"></a>
+            <a href="#" onclick="clickEditButton()"><img src="{{ asset('img/update_button.png') }}" class="regist_button"></a>
         </div>
 
     </form>
